@@ -1,0 +1,8 @@
+/* styles.css or your custom CSS file */
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+.typewriter-text {
+  font-family: 'Montserrat', sans-serif; /* Apply the custom font to the Typewriter text */
+  font-size: 2rem;
+  font-weight: bold;
+}
