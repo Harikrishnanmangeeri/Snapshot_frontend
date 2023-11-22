@@ -59,7 +59,7 @@ const BlockedUserListComponent = () => {
           },
         }
       );
-      location.reload();
+      window.location.reload();
       getUserList();
     } catch (error) {
       console.error("Error blocking/unblocking user:", error);

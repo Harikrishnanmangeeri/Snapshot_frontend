@@ -141,7 +141,7 @@ const router =useRouter()
   };
 
   const handleRefresh = () => {
-    location.reload();
+    window.location.reload();
   };
 
 

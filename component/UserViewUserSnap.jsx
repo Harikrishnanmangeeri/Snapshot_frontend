@@ -121,7 +121,7 @@ export default function Viewsnapuser({
       setSnackbarMessage("Delete successful");
       setSnackbarSeverity("success");
       setSnackbarOpen(true);
-      location.reload();
+      window.location.reload();
     } catch (error) {
       console.log("deleting unsucessfully", error.message);
       setSnackbarMessage("Delete unsuccessful");

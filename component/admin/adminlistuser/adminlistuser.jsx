@@ -59,7 +59,7 @@ const UserListComponent = () => {
           },
         }
       );
-      location.reload();
+      window.location.reload();
 
       getUserList();
     } catch (error) {

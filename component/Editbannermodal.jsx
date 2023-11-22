@@ -35,7 +35,7 @@ export default function EditbannerModal() {
 
   const router = useRouter();
   const handleRefresh = () => {
-    location.reload();
+    window.location.reload();
   };
 
   const handleupload = async () => {
